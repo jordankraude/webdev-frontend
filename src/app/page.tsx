@@ -38,15 +38,15 @@ export default function Home() {
                 to deliver tailored web solutions that not only meet but exceed the unique goals of our clients. Our team of
                 passionate developers and designers is committed to transforming ideas into reality, leveraging the latest 
                 technologies to build robust, user-friendly, and visually stunning websites. Through creativity, collaboration, 
-                and cutting-edge expertise, we strive to be the catalyst for our clients' digital success, fostering growth and 
-                making a lasting impact in the ever-evolving online landscape. At TOT, we don't just build websites; we sculpt 
+                and cutting-edge expertise, we strive to be the catalyst for our clients&apos; digital success, fostering growth and 
+                making a lasting impact in the ever-evolving online landscape. At TOT, we don&apos;t just build websites; we sculpt 
                 digital masterpieces that leave a lasting impression.</p>
             </div>
         </div>
 
 
         <div className="bridge text-cyan-300 md:text-white lg:mt-40 mt-96">
-          <h1 className="text-4xl md:text-6xl text-right mr-10">But Don't Just Take it From Us</h1>
+          <h1 className="text-4xl md:text-6xl text-right mr-10">But Don&apos;t Just Take it From Us</h1>
         </div>
         <div className="flex-container text-white top-5 relative mt-0 md:mt-20"> 
           <TestimonialCard
