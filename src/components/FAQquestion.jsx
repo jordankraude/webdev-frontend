@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import questions from '../data/questions.json'
 
-const FAQQuestion = () => {
+const faqQuestion = () => {
 
   const [expandedQuestion, setExpandedQuestion] = useState(null);
 
@@ -32,4 +32,4 @@ const FAQQuestion = () => {
   );
 };
 
-export default FAQQuestion;
+export default faqQuestion;
