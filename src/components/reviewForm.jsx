@@ -34,6 +34,7 @@ const ReviewForm = () => {
       setIsSuccess(true)
       setSuccess(true);
       // router.push({ pathname: '/', query: { success: true } });
+      window.location = '/Contact/Success';
       
 
     } catch (error) {

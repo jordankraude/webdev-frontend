@@ -11,7 +11,7 @@ export default function Feedback(){
           <QuoteRequestForm/>
         </div>
 
-        <div className="mb-6 mb-10"></div>
+        <div className="mb-12"></div>
 
         
       </main>

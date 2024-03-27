@@ -12,8 +12,8 @@ const RequestQuoteButton = () => {
 
   return (
     <div className='text-center mt-20'>
-      <button className="text-black bg-cyan-300" onClick={handleFeedbackClick}>
-        Request a Free Quote Today!
+      <button className="text-black bg-cyan-300 rounded-sm" onClick={handleFeedbackClick}>
+        Request a Quote
       </button>
     </div>
   );

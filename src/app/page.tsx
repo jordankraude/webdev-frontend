@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { CircleAnimation } from "../components/circleAnimation.jsx"
 import {StickyCarousel} from "../components/carousel.jsx"
-import { TestimonialCard } from "../components/testimonials.jsx";
+import TestimonialCard from "@/components/testimonials.jsx";
 import { FeedbackButton } from "../components/feedbackButton.jsx"
 import { SuccessProvider } from '../components/successContext.jsx';
 
@@ -63,7 +63,7 @@ export default function Home() {
           />
         </div>
         
-        <div>
+        <div className="mb-10">
           <FeedbackButton/>
         </div>
 

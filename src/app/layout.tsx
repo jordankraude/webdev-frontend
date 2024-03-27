@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Header } from "../components/header.jsx"
 import { Footer } from "../components/footer.jsx"
 import { SuccessProvider } from "@/components/successContext.jsx";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

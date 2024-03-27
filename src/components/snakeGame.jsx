@@ -96,20 +96,21 @@ const SnakeGame = () => {
 
     const handleKeyDown = (e) => {
       switch (e.key) {
-        case 'ArrowUp':
+        case 'w':
           direction = 'up';
           break;
-        case 'ArrowDown':
+        case 's':
           direction = 'down';
           break;
-        case 'ArrowLeft':
+        case 'a':
           direction = 'left';
           break;
-        case 'ArrowRight':
+        case 'd':
           direction = 'right';
           break;
         default:
           break;
+    
       }
     };
 
@@ -127,7 +128,7 @@ const SnakeGame = () => {
   }, [canvas]);
 
   return (
-  <div className='relative bottom-0 overflow-hidden w-full h-100vh'>
+  <div className='relative bottom-0 overflow-hidden w-full h-100vh snake'>
     <canvas ref={canvasRef} className="snake-game-canvas" />;
   </div>
   )

@@ -1,0 +1,31 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model quote_requests {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  budget      String
+  email       String
+  file        Bytes?
+  firstName   String
+  lastName    String
+  /// Could not determine type: the field only had null or empty values in the sample set.
+  otherInfo   String?
+  phoneNumber String
+
+  @@map("quote-requests")
+}
+
+model reviews {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  email        String
+  feedback     String
+  firstName    String
+  lastName     String
+  wantResponse String
+}

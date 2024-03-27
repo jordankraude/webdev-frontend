@@ -12,7 +12,7 @@ const FeedbackButton = () => {
 
   return (
     <div className='text-center mt-20'>
-      <button className="text-black bg-cyan-300" onClick={handleFeedbackClick}>
+      <button className="text-black bg-cyan-300 rounded-sm" onClick={handleFeedbackClick}>
         Leave Some Feedback
       </button>
     </div>

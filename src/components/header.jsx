@@ -10,7 +10,6 @@ return (
         <a href="/"><li>Home</li></a>
         <a href="/Services"><li>Services</li></a>
         <a href="/FAQ"><li>FAQs</li></a>
-        <a href="/Team"><li>Team</li></a>
         <a href="/Contact"><li>Contact</li></a>
       </ul>
     </nav>

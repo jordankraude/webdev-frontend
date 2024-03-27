@@ -8,7 +8,7 @@ const LaserAnimation = () => {
     const createLaser = () => {
       const laserContainer = document.getElementById('laserContainer');
       const laser = document.createElement('div');
-      laser.className = 'laser';
+      laser.className = 'laser obstacle';
 
       const randomPosition = 5 + Math.random() * 90;
       laser.style.left = `${randomPosition}vw`;
