@@ -28,7 +28,7 @@ export default function Home() {
 
           
         <div className="companyPurpose mt-20 md:mt-40 z-0 h-auto max-h-lvh">
-            <div className="bg-gray-900 bg-opacity-50 text-white rounded-md w-4/5 ml-8 z-50">
+            <div className="bg-gray-900 bg-opacity-50 text-white rounded-md w-4/5 ml-8 z-50 mb-4">
               <h1 className="text-center text-2xl md:text-3xl lg:text-6xl p-4  z-50">Our Purpose</h1>
             </div>
             <img className="h-auto max-w-full" src="images/boardMeeting (1).jpg" alt="company board meeting"/>
@@ -46,7 +46,7 @@ export default function Home() {
 
 
         <div className="bridge text-cyan-300 md:text-white lg:mt-40 mt-96">
-          <h1 className="text-4xl md:text-6xl text-right mr-10">But Don&apos;t Just Take it From Us</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-6xl text-right mr-10">But Don&apos;t Just Take it From Us</h1>
         </div>
         <div className="flex-container text-white top-5 relative mt-0 md:mt-20"> 
           <TestimonialCard

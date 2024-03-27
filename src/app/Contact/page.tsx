@@ -76,7 +76,7 @@ export default function Contact() {
       {gameOver && <div className="game-over-message absolute top-1/2 left-1/2">
       <h3 className="relative right-10 text-center mx-auto">Game Over!</h3>
       <h5 className="relative right-10 text-center mx-auto">Avoid Collisions!</h5>
-      <button className="z-20 w-auto relative right-10" onClick={handleResetGame}>Play Again</button>
+      <button className="z-20 w-auto relative right-10 mt-10 text-black" onClick={handleResetGame}>Play Again</button>
       </div>
       }
       <div className="rocket" ref={rocketRef}>
@@ -115,7 +115,7 @@ export default function Contact() {
           <h1 className="text-2xl md:text-4xl obstacle">209-495-2253  <br /> jordankraudetp@gmail.com</h1>
         </div>
       </div>
-      <div className="mb-10 absolute bottom-0 Contact-Buttons">
+      <div className="mb-10 absolute bottom-0 Contact-Buttons w-screen overflow-hidden -left-1/3">
         <FeedbackButton/>
         <RequestQuoteButton/>
       </div>

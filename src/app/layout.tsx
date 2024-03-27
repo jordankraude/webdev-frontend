@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Quicksand } from "next/font/google";
+
 import { Header } from "../components/header.jsx"
 import { Footer } from "../components/footer.jsx"
 import { SuccessProvider } from "@/components/successContext.jsx";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "TOT Webpages",

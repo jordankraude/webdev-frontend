@@ -14,28 +14,13 @@ return (
                 </div>
                 <p id="copyright" className="mt-4"> &#169; January 2024 </p>
               </div>
-              {/* <div className="imagegrid grid grid-cols-2 grid-rows-2 mt-8 ml-6 w-auto md:hidden lg:hidden">
-                <div className="flex items-center justify-center skew-center">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                    <img src="images/icons8-facebook-48.png" alt="facebook icon" />
-                  </a>
+              <div>
+                <div className="text-xs md:text-sm ml-4 mt-28">
+                  <p>209-495-2253</p>
+                  <p>jordankraudetp@gmail.com</p>
                 </div>
-                <div className="flex items-center justify-center skew-center">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <img src="images/icons8-instagram-48.png" alt="instagram icon" />
-                  </a>
-                </div>
-                <div className="flex items-center justify-center skew-center">
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <img src="images/icons8-linkedin-48.png" alt="linkedin icon" />
-                  </a>
-                </div>
-                <div className="flex items-center justify-center skew-center">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    <img src="images/icons8-github-48.png" alt="github icon" />
-                  </a>
-                </div>
-              </div> */}
+              </div>
+ 
             </div>
           </div>
 

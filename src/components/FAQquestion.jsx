@@ -24,7 +24,7 @@ const FAQSections = () => {
                 <h3 className="card-title text-xl md:text-2xl mb-2">{q.question}</h3>
                 <i className={`fa z-10 fa-chevron-${expandedQuestion === index ? 'up' : 'down'} fa-lg text-white`} />
               </div>
-              {expandedQuestion === index && <p className="card-text text-md md:text-xl">{q.answer}</p>}
+              {expandedQuestion === index && <p className="card-text text-md md:text-xl mt-4">{q.answer}</p>}
             </div>
           </div>
         ))}
