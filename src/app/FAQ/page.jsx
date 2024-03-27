@@ -1,5 +1,5 @@
-import faqQuestion from '../../components/FAQQuestion';
-import LavaLamp from '../../components/lavaLamp'
+import faqQuestion from '../../components/FAQQuestion.jsx';
+import LavaLamp from '../../components/lavaLamp.jsx'
 
 
 export default function FAQ() {
