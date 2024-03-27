@@ -1,4 +1,4 @@
-import faqQuestion from '../../components/FAQQuestion.jsx';
+import faqQuestion from '../../components/faqQuestion.jsx'
 import LavaLamp from '../../components/lavaLamp.jsx'
 
 
